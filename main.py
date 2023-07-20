@@ -3,8 +3,8 @@ fen = Tk()
 
 import pygame
 pygame.init()
-son_touche_a = pygame.mixer.Sound("C:/laragon/www/py-keyboard/crash.wav")
-son_touche_z = pygame.mixer.Sound("C:/laragon/www/py-keyboard/miaou.wav")
+son_touche_a = pygame.mixer.Sound("C:/laragon/www/py-keyboard/sons/crash.wav")
+son_touche_z = pygame.mixer.Sound("C:/laragon/www/py-keyboard/sons/miaou.wav")
 
 
 def press(event):
